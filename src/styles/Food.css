@@ -1,5 +1,7 @@
 .favorite-button{
-    align-self: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
     margin: 20px;
     padding: 10px;
     width: 200px;
@@ -65,6 +67,19 @@
   .ingredients li,
   .method li {
     margin-bottom: 10px;
+    list-style-type: circle;
+  }
+
+  .method-div{
+    word-break: normal;
+    color:lightgray;
+  }
+
+  .method-title{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: gold;
   }
   
   
