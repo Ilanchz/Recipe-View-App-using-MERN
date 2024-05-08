@@ -1,0 +1,38 @@
+.search-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+}
+
+.search-bar{
+    width:50%;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.search-button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+
+.fav-button{
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+}

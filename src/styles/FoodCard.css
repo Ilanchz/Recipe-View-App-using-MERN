@@ -1,0 +1,80 @@
+.food-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    margin-top: 0px;
+}
+
+
+.food-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    min-height: 250px;
+    background-color: black;
+    padding: 10px;
+    transition: padding 0.5s ease-in-out;
+}
+
+.food-card:hover{
+    padding: 20px;
+}
+
+.food-image{
+    border: 2px solid gray;
+    border-radius: 10%;
+    width: 250px;
+    height: 250px;
+}   
+
+.difficulty-easy{
+    position: absolute;
+    top: 8%;
+    left: 15%;
+    z-index: 10;
+    background-color: #1c9e3f;
+    color: white;
+    border-radius: 10%;
+    padding: 3px;
+    margin: 3px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.difficulty{
+    position: absolute;
+    top: 8%;
+    left: 15%;
+    z-index: 10;
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+    padding: 3px;
+    margin: 3px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.title{
+    text-overflow: clip;
+    color: white;
+    font-style: italic;
+    
+}
+
+.difficulty{
+    text-align: center;
+}
+
+.no-result{
+    font-size: 50px;
+    opacity: 50%;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+

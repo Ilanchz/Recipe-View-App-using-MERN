@@ -1,0 +1,70 @@
+.favorite-button{
+    align-self: center;
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.food-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+  }
+  
+ .food-content {
+    display: flex;
+  }
+  
+  .food-image {
+    flex: 1;
+    
+  }
+  
+  .food-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .food-details {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .food-details h2 {
+    margin-top: 0;
+  }
+  
+  .food-details p.description {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .food-details .info {
+    margin-bottom: 20px;
+  }
+  
+  .food-details .info p {
+    margin: 5px 0;
+  }
+  
+  .ingredients,
+  .method {
+    margin-left: 20px;
+  }
+  
+  .ingredients li,
+  .method li {
+    margin-bottom: 10px;
+  }
+  
+  
