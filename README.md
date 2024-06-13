@@ -65,11 +65,6 @@ Recipe Hub is your go-to destination for culinary inspiration and gastronomic ad
 
 ---
 
-## 🤝 Contributors:
-
-- [Your Name](https://github.com/yourusername)
-- [Contributor 2](https://github.com/contributor2)
-- [Contributor 3](https://github.com/contributor3)
 
 ---
 
