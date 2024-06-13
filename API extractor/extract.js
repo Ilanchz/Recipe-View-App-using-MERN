@@ -6,7 +6,7 @@ async function FetchDataIntoDataBase(){
     const response=await fetch('https://the-vegan-recipes-db.p.rapidapi.com/',{
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '449404d4e5mshb142bbbef2abbb4p11772cjsn6ff669cbffff',
+            'X-RapidAPI-Key': '',
             'X-RapidAPI-Host': 'the-vegan-recipes-db.p.rapidapi.com'
         }
     });
