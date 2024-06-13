@@ -59,7 +59,6 @@ Recipe Hub is your go-to destination for culinary inspiration and gastronomic ad
 - **src/**
   - **components/**: React components for the user interface.
   - **styles/**: CSS files for styling and enhancing visual appeal.
-  - **utils/**: Utility functions for seamless application operation.
   - **App.js**: Main component orchestrating the application flow.
   - **index.js**: Entry point for the application.
 
